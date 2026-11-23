@@ -24,6 +24,7 @@ Panel zarządzania skillami agentów w Herdrze: zainstalowane skille (z `~/.agen
 - Zakładka Hub ładuje `~/.agents/skills/skillshare-hub/skillshare-hub.json`; jeśli pliku nie ma albo lista jest pusta, używa `mods/skill-hub/skillshare-hub.json`. Statystyki z `github-stats.json` w tym samym katalogu, z fallbackiem do `mods/skill-hub/github-stats.json`.
 - Zakładka „Zainstalowane" skanuje `~/.agents/skills` przez `exec`. Bez lokalnych skilli jest pusta — mod nie dołącza listy zainstalowanych skilli.
 - Instalacja z Hubu buduje `npx -y skills add <owner>/<repo> --skill <path> -g -y` i uruchamia ją przez `exec("cmd.exe", ["/c", cmd])`; „Kopiuj polecenie" daje wersję bez `-y`.
+- Gdy `exec` zwróci błąd SSL/certyfikatu Git (`ca-bundle`, `trust anchor`, `unable to access`), zamiast surowego stderr pokazywany jest komunikat z instrukcją: `git config --global http.sslBackend schannel`, `git config --global --unset-all http.sslCAInfo`, test `git ls-remote` i ewentualna reinstalacja Git for Windows. Oryginalny błąd jest dołączony na końcu (skrócony do 300 znaków).
 - „Otwórz repozytorium" używa `start <url>` na Windows i `open` / `xdg-open` alt.
 - Wyszukiwanie filtruje zainstalowane i katalog Hub; przełączanie zakładek resetuje zaznaczenie i pozycję listy.
 

@@ -736,9 +736,28 @@ export default class SkillsMod extends View {
         throw new Error(res.stderr || res.stdout || "Błąd instalacji");
       }
     } catch (err) {
+      const raw = String(err?.message || err);
+      const lower = raw.toLowerCase();
+      let body = raw;
+      if (
+        lower.includes("ca-bundle") ||
+        lower.includes("trust anchor") ||
+        lower.includes("certificate") ||
+        lower.includes("unable to access") ||
+        lower.includes("ssl")
+      ) {
+        body =
+          "Git nie może zweryfikować certyfikatu GitHuba na tym komputerze.\n\n" +
+          "W PowerShell uruchom:\n" +
+          "  git config --global http.sslBackend schannel\n" +
+          "  git config --global --unset-all http.sslCAInfo\n\n" +
+          "Sprawdź: git ls-remote https://github.com/mattpocock/skills.git\n" +
+          "Jeśli nadal nie działa — zainstaluj ponownie Git for Windows.\n\n" +
+          "Oryginalny błąd: " + raw.slice(0, 300);
+      }
       notify({
         title: "Błąd instalacji",
-        body: String(err?.message || err),
+        body,
         level: "error",
       });
     } finally {
