@@ -1302,7 +1302,7 @@ export default class SkillsMod extends View {
                       .font_bold()
                       .text_color(t.foreground)
                       .truncate()
-                      .child(hubSkill.name)
+                      .child(hubSkill.name || "—")
                   )
                   .when(isInstalled, (el) =>
                     el.child(
@@ -1477,7 +1477,7 @@ export default class SkillsMod extends View {
           )
       )
       // GitHub Repository Statistics Box
-      .when(Boolean(statsInfo), (el) =>
+      .when(Boolean(statsInfo?.stats), (el) =>
         el.child(this.renderGitHubStatsBox(t, statsInfo))
       )
       // Source & Installation Details Box
@@ -1496,7 +1496,7 @@ export default class SkillsMod extends View {
             h_flex()
               .gap(8)
               .child(div().w(90).text_size(12).text_color(t.dim).child("Repozytorium:"))
-              .child(div().flex_1().text_size(12).font_semibold().text_color(t.foreground).child(hubSkill.source))
+              .child(div().flex_1().text_size(12).font_semibold().text_color(t.foreground).child(hubSkill.source || "—"))
           )
           .child(
             h_flex()
@@ -2834,7 +2834,7 @@ export default class SkillsMod extends View {
                       )
                   )
                   // GitHub Repository Statistics Box
-                  .when(Boolean(skillStats), (sub) =>
+                  .when(Boolean(skillStats?.stats), (sub) =>
                     sub.child(this.renderGitHubStatsBox(t, skillStats))
                   )
                   // Markdown Content Area
