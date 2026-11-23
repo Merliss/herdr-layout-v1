@@ -1,0 +1,322 @@
+{
+  "coreyhaines31/marketingskills": {
+    "stars": 59175,
+    "forks": 8644,
+    "openIssues": 88,
+    "pushedAt": "2026-11-06T17:53:06Z",
+    "license": "MIT",
+    "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering."
+  },
+  "wshobson/agents": {
+    "stars": 42304,
+    "forks": 4472,
+    "openIssues": 4,
+    "pushedAt": "2026-11-08T13:14:13Z",
+    "license": "MIT",
+    "description": "Plugins, agents, skills, and commands for Claude Code, Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Copilot, and Pi, written once in Markdown and adapted to each tool by generators with validation and evals."
+  },
+  "agentspace-so/runcomfy-agent-skills": {
+    "stars": 61,
+    "forks": 14,
+    "openIssues": 1,
+    "pushedAt": "2026-05-15T10:59:51Z",
+    "license": "MIT",
+    "description": "RunComfy AI media skills for Claude agents — incremental publish test"
+  },
+  "vercel-labs/agent-browser": {
+    "stars": 47366,
+    "forks": 3243,
+    "openIssues": 512,
+    "pushedAt": "2026-11-08T10:03:53Z",
+    "license": "Apache-2.0",
+    "description": "Browser automation CLI for AI agents"
+  },
+  "inference-sh-9/skills": {
+    "stars": 801,
+    "forks": 107,
+    "openIssues": 3,
+    "pushedAt": "2026-10-15T10:38:25Z",
+    "license": null,
+    "description": "inference.sh Agent skills for using our API to give your agents access to hundreds of apps and other agents"
+  },
+  "microsoft/azure-skills": {
+    "stars": 1627,
+    "forks": 266,
+    "openIssues": 11,
+    "pushedAt": "2026-11-06T17:55:17Z",
+    "license": "MIT",
+    "description": "Official agent plugin providing skills and MCP server configurations for Azure scenarios."
+  },
+  "anthropics/skills": {
+    "stars": 189303,
+    "forks": 22311,
+    "openIssues": 1495,
+    "pushedAt": "2026-11-06T22:32:32Z",
+    "license": null,
+    "description": "Public repository for Agent Skills"
+  },
+  "antfu/skills": {
+    "stars": 6054,
+    "forks": 342,
+    "openIssues": 1,
+    "pushedAt": "2026-11-05T04:52:19Z",
+    "license": "MIT",
+    "description": "Anthony Fu's curated collection of agent skills."
+  },
+  "microsoft/github-copilot-for-azure": {
+    "stars": 262,
+    "forks": 225,
+    "openIssues": 306,
+    "pushedAt": "2026-11-07T02:23:50Z",
+    "license": "NOASSERTION",
+    "description": "GitHub Copilot for Azure"
+  },
+  "mattpocock/skills": {
+    "stars": 318277,
+    "forks": 26634,
+    "openIssues": 223,
+    "pushedAt": "2026-11-05T10:40:01Z",
+    "license": "MIT",
+    "description": "Skills for Real Engineers. Straight from my .agents directory."
+  },
+  "jimliu/baoyu-skills": {
+    "stars": 27388,
+    "forks": 2989,
+    "openIssues": 1,
+    "pushedAt": "2026-11-06T17:20:33Z",
+    "license": "MIT",
+    "description": null
+  },
+  "obra/superpowers": {
+    "stars": 314446,
+    "forks": 27975,
+    "openIssues": 343,
+    "pushedAt": "2026-11-03T23:24:58Z",
+    "license": "MIT",
+    "description": "An agentic skills framework & software development methodology that works."
+  },
+  "juliusbrussee/caveman": {
+    "stars": 118299,
+    "forks": 6884,
+    "openIssues": 70,
+    "pushedAt": "2026-11-08T07:43:36Z",
+    "license": "Apache-2.0",
+    "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman."
+  },
+  "designed-by-ai/skills": {
+    "stars": 28,
+    "forks": 6,
+    "openIssues": 0,
+    "pushedAt": "2026-10-06T08:00:25Z",
+    "license": "MIT",
+    "description": "Agent skills"
+  },
+  "emilkowalski/skills": {
+    "stars": 54643,
+    "forks": 3183,
+    "openIssues": 0,
+    "pushedAt": "2026-11-08T12:15:47Z",
+    "license": "MIT",
+    "description": "Skills for Designers and Engineers."
+  },
+  "lllllllama/rigorpilot-skills": {
+    "stars": 486,
+    "forks": 19,
+    "openIssues": 1,
+    "pushedAt": "2026-09-23T14:14:25Z",
+    "license": "MIT",
+    "description": "README-first research reproduction skills with bounded execution, auditable evidence, and byte-preserving README annotations."
+  },
+  "expo/skills": {
+    "stars": 4091,
+    "forks": 266,
+    "openIssues": 107,
+    "pushedAt": "2026-11-06T20:15:01Z",
+    "license": "MIT",
+    "description": "A collection of AI agent skills for working with Expo projects and Expo Application Services"
+  },
+  "vercel-labs/skills": {
+    "stars": 38579,
+    "forks": 3362,
+    "openIssues": 810,
+    "pushedAt": "2026-11-06T02:37:48Z",
+    "license": "MIT",
+    "description": "The open agent skills tool - npx skills"
+  },
+  "google/agents-cli": {
+    "stars": 6319,
+    "forks": 730,
+    "openIssues": 19,
+    "pushedAt": "2026-11-04T17:44:59Z",
+    "license": "Apache-2.0",
+    "description": "The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud."
+  },
+  "heygen-com/hyperframes": {
+    "stars": 80914,
+    "forks": 7468,
+    "openIssues": 223,
+    "pushedAt": "2026-11-08T15:59:43Z",
+    "license": "Apache-2.0",
+    "description": "Write HTML. Render video. Built for agents."
+  },
+  "uizze/uizze": {
+    "stars": 88,
+    "forks": 11,
+    "openIssues": 7,
+    "pushedAt": "2026-11-01T14:51:45Z",
+    "license": "MIT",
+    "description": "Design skills for coding agents."
+  },
+  "larksuite/cli": {
+    "stars": 18019,
+    "forks": 1373,
+    "openIssues": 730,
+    "pushedAt": "2026-11-06T10:29:27Z",
+    "license": "MIT",
+    "description": "The official Lark/飞书 CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills."
+  },
+  "vercel/next.js": {
+    "stars": 143420,
+    "forks": 33549,
+    "openIssues": 3865,
+    "pushedAt": "2026-11-08T15:07:45Z",
+    "license": "MIT",
+    "description": "The React Framework"
+  },
+  "stablyai/orca": {
+    "stars": 119058,
+    "forks": 7554,
+    "openIssues": 8146,
+    "pushedAt": "2026-11-08T16:08:59Z",
+    "license": "MIT",
+    "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime."
+  },
+  "prisma/skills": {
+    "stars": 80,
+    "forks": 7,
+    "openIssues": 5,
+    "pushedAt": "2026-11-06T15:36:49Z",
+    "license": "MIT",
+    "description": null
+  },
+  "millionco/react-doctor": {
+    "stars": 15107,
+    "forks": 499,
+    "openIssues": 573,
+    "pushedAt": "2026-11-08T12:00:13Z",
+    "license": "NOASSERTION",
+    "description": "Your agent writes bad React. This catches it"
+  },
+  "flowkit-labs/skills": {
+    "stars": 31,
+    "forks": 6,
+    "openIssues": 0,
+    "pushedAt": "2026-08-12T06:31:41Z",
+    "license": "MIT",
+    "description": null
+  },
+  "remotion-dev/skills": {
+    "stars": 6592,
+    "forks": 718,
+    "openIssues": 24,
+    "pushedAt": "2026-11-05T08:20:43Z",
+    "license": null,
+    "description": "Agent Skills"
+  },
+  "genmedia-labs/skills": {
+    "stars": 27,
+    "forks": 13,
+    "openIssues": 0,
+    "pushedAt": "2026-09-07T09:22:26Z",
+    "license": "MIT",
+    "description": null
+  },
+  "supabase/agent-skills": {
+    "stars": 3032,
+    "forks": 264,
+    "openIssues": 527,
+    "pushedAt": "2026-11-07T21:49:27Z",
+    "license": "MIT",
+    "description": "Agent Skills to help developers using AI agents with Supabase"
+  },
+  "vercel/turborepo": {
+    "stars": 31312,
+    "forks": 2484,
+    "openIssues": 30,
+    "pushedAt": "2026-11-08T15:41:32Z",
+    "license": "MIT",
+    "description": "The build system for coding agents."
+  },
+  "101-skills/superpowers": {
+    "stars": 21,
+    "forks": 5,
+    "openIssues": 0,
+    "pushedAt": "2026-08-31T22:58:53Z",
+    "license": null,
+    "description": "Agent superpowers"
+  },
+  "nextlevelbuilder/ui-ux-pro-max-skill": {
+    "stars": 146805,
+    "forks": 15540,
+    "openIssues": 86,
+    "pushedAt": "2026-11-07T19:05:11Z",
+    "license": "MIT",
+    "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms."
+  },
+  "vercel-labs/agent-skills": {
+    "stars": 33713,
+    "forks": 2947,
+    "openIssues": 193,
+    "pushedAt": "2026-10-28T19:17:28Z",
+    "license": null,
+    "description": "Vercel's official collection of agent skills"
+  },
+  "testdino-hq/playwright-skill": {
+    "stars": 414,
+    "forks": 67,
+    "openIssues": 1,
+    "pushedAt": "2026-10-12T07:23:03Z",
+    "license": "MIT",
+    "description": "TestDino Playwright Skill: AI-powered guides for Playwright best practices, made by testdino.com."
+  },
+  "runkids/skillshare": {
+    "stars": 2967,
+    "forks": 188,
+    "openIssues": 14,
+    "pushedAt": "2026-11-08T10:56:40Z",
+    "license": "MIT",
+    "description": "📚 Sync skills, agents, MCP, plugins to all AI CLI tools with one command and simplify team sharing."
+  },
+  "runkids/skillshare-hub": {
+    "stars": 19,
+    "forks": 8,
+    "openIssues": 0,
+    "pushedAt": "2026-11-04T18:38:36Z",
+    "license": "MIT",
+    "description": "🗃️ A curated catalog of skillshare skills and a reference for building your own. Create your organization's internal hub."
+  },
+  "backnotprop/pstack": {
+    "stars": 3816,
+    "forks": 312,
+    "openIssues": 18,
+    "pushedAt": "2026-11-04T12:00:00Z",
+    "license": "MIT",
+    "description": "Skills and principles for rigorous AI-assisted engineering by poteto."
+  },
+  "cloudflare/skills": {
+    "stars": 3311,
+    "forks": 240,
+    "openIssues": 25,
+    "pushedAt": "2026-11-05T15:30:00Z",
+    "license": "Apache-2.0",
+    "description": "Skills for teaching agents how to build on Cloudflare."
+  },
+  "alirezarezvani/claude-skills": {
+    "stars": 29476,
+    "forks": 2890,
+    "openIssues": 45,
+    "pushedAt": "2026-11-07T18:00:00Z",
+    "license": "MIT",
+    "description": "410 Claude Code skills & agent skills & plugins for Claude Code, Cursor, Codex..."
+  }
+}
